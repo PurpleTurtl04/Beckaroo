@@ -38,7 +38,3 @@
     --breakpoint-xs: 30rem;
     --breakpoint-3xl: 121rem; /* 120rem is 1920px */
 }
-
-:root {
-    font-family: 'Nunito Sans', sans-serif;
-}

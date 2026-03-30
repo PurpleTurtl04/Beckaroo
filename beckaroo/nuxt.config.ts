@@ -9,6 +9,12 @@ export default defineNuxtConfig({
         '@nuxt/image',
         '@nuxtjs/tailwindcss',
     ],
+    fonts: {
+        families: [
+            { name: 'Poppins', weights: [400, 500, 600, 700, 800, 900] },
+            { name: 'DynaPuff', weights: [400, 500, 600, 700] },
+        ],
+    },
     css: ['~/assets/css/main.css'],
     app: {
         head: {
