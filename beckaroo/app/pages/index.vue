@@ -64,6 +64,6 @@
 
 <script setup>
     definePageMeta({
-        layout: 'layout-alt', // Uses app/layouts/custom.vue
+        layout: 'layout-alt',
     });
 </script>
