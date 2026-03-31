@@ -64,10 +64,10 @@
                             <NuxtLink to="/">Daily Tails</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/about">The Zoo</NuxtLink>
+                            <NuxtLink to="/">The Zoo</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/projects">The Keepers</NuxtLink>
+                            <NuxtLink to="/">The Keepers</NuxtLink>
                         </li>
                         <li>
                             <div
