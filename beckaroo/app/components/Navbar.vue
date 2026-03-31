@@ -71,7 +71,7 @@
                         </li>
                         <li>
                             <div
-                                class="btn btn-sm btn-outline"
+                                class="btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary"
                                 @click="modalStore.openModal()"
                             >
                                 Sign Up
