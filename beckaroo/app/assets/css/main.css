@@ -8,7 +8,7 @@
     default: true;
     prefersdark: false;
     color-scheme: 'light';
-    --color-base-100: oklch(100% 0 0);
+    --color-base-100: oklch(98% 0 0);
     --color-base-200: oklch(93% 0 0);
     --color-base-300: oklch(86% 0 0);
     --color-base-content: oklch(35.519% 0.032 262.988);
@@ -37,6 +37,13 @@
     --border: 1px;
     --depth: 0;
     --noise: 0;
+    /* Color variations */
+    --color-primary-300: #76a168;
+    --color-primary-700: #283b22;
+    --color-secondary-300: #256980;
+    --color-secondary-700: #052833;
+    --color-neutral-300: #a6a6a6;
+    --color-neutral-700: #3d403d;
 }
 
 @theme {
@@ -50,4 +57,5 @@
 
 :root {
     font-family: var(--font-poppins);
+    background-color: var(--color-base-100);
 }
