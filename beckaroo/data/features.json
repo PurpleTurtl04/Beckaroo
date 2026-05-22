@@ -15,7 +15,7 @@
         "image": "/images/Ruxin.jpg",
         "alt": "A bearded dragon",
         "linkText": "I love animal pics",
-        "link": "daily-tails"
+        "link": "zoo"
     },
     {
         "id": 3,
@@ -24,6 +24,6 @@
         "image": "/images/RyderHome.jpg",
         "alt": "A cat in a box",
         "linkText": "Who are these crazy people?",
-        "link": "daily-tails"
+        "link": "keepers"
     }
 ]

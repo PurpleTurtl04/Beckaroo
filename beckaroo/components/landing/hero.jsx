@@ -12,7 +12,7 @@ export default function Hero() {
                 className='3xl:mx-auto max-w-480 object-cover object-[30%] md:object-[15%]'
             />
             <div className='3xl:mx-auto absolute inset-0 max-w-480 bg-black/12 md:bg-black/5' />
-            <div className='hero-content text-neutral-content 3xl:ml-6 items-start justify-start text-shadow-lg/20 md:ml-2 lg:ml-6 xl:ml-2'>
+            <div className='hero-content text-neutral-content 3xl:ml-6 items-start justify-start text-shadow-md/20 md:ml-2 lg:ml-6 xl:ml-2'>
                 <div>
                     <h1 className='font-dynapuff mb-4 text-4xl font-bold md:text-5xl'>
                         Welcome to the Zoo!

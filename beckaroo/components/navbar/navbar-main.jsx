@@ -4,7 +4,7 @@ export default function NavbarMain() {
     return (
         <div className='bg-primary text-primary-content flex justify-center shadow-sm'>
             <nav className='3xl:px-2 container'>
-                <div className='navbar md:px-4 lg:px-8'>
+                <div className='navbar'>
                     <div className='navbar-start'>
                         <div className='dropdown'>
                             <div
@@ -31,13 +31,13 @@ export default function NavbarMain() {
                                 className='menu menu-sm dropdown-content bg-base-300 rounded-box text-base-content z-1 mt-3 w-32 p-2 shadow'
                             >
                                 <li>
-                                    <Link href='/'>Daily Tails</Link>
+                                    <Link href='/daily-tails'>Daily Tails</Link>
                                 </li>
                                 <li>
                                     <Link href='/'>The Zoo</Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>The Keepers</Link>
+                                    <Link href='/keepers'>The Keepers</Link>
                                 </li>
                                 <li>
                                     <div className='btn btn-xs btn-soft btn-primary pl-0'>
@@ -56,7 +56,10 @@ export default function NavbarMain() {
                     <div className='navbar-end hidden md:flex'>
                         <ul className='menu menu-horizontal px-1 lg:gap-2'>
                             <li>
-                                <Link href='/' className='hover:bg-base-300/30'>
+                                <Link
+                                    href='/daily-tails'
+                                    className='hover:bg-base-300/30'
+                                >
                                     Daily Tails
                                 </Link>
                             </li>
@@ -66,7 +69,10 @@ export default function NavbarMain() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href='/' className='hover:bg-base-300/30'>
+                                <Link
+                                    href='/keepers'
+                                    className='hover:bg-base-300/30'
+                                >
                                     The Keepers
                                 </Link>
                             </li>

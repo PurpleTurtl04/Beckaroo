@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Becky",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat urna sed est pharetra, sed sagittis metus sollicitudin. Donec euismod egestas orci, eu tincidunt dui accumsan non. Nulla tincidunt sem eget sapien vestibulum, sed fermentum est mollis. Aenean finibus elit tellus, in bibendum eros consequat vel. Pellentesque et justo elementum, gravida enim tempus, elementum enim. Fusce ac aliquam ante, in mattis tellus. Mauris eget egestas enim, et fringilla metus. Phasellus suscipit enim vel lacus rutrum convallis nec nec dolor. Vivamus aliquam tincidunt luctus. Nulla sit amet eros nec tellus mollis sodales. Donec ornare sit amet ligula dapibus mattis. Fusce ex risus, cursus in eros vitae, fringilla hendrerit massa. Suspendisse eget purus ut lacus auctor pulvinar. Ut vel consequat mi.",
+        "image": "/images/Becky.jpg",
+        "alt": "Nick, Becky, and Audrey standing in from of a christmas tree",
+        "reverse": false
+    },
+    {
+        "id": 2,
+        "name": "Nick",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat urna sed est pharetra, sed sagittis metus sollicitudin. Donec euismod egestas orci, eu tincidunt dui accumsan non. Nulla tincidunt sem eget sapien vestibulum, sed fermentum est mollis. Aenean finibus elit tellus, in bibendum eros consequat vel. Pellentesque et justo elementum, gravida enim tempus, elementum enim. Fusce ac aliquam ante, in mattis tellus. Mauris eget egestas enim, et fringilla metus. Phasellus suscipit enim vel lacus rutrum convallis nec nec dolor. Vivamus aliquam tincidunt luctus. Nulla sit amet eros nec tellus mollis sodales. Donec ornare sit amet ligula dapibus mattis. Fusce ex risus, cursus in eros vitae, fringilla hendrerit massa. Suspendisse eget purus ut lacus auctor pulvinar. Ut vel consequat mi.",
+        "image": "/images/Nick.jpg",
+        "alt": "Nick holding baby Audrey",
+        "reverse": true
+    },
+    {
+        "id": 3,
+        "name": "Audrey",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat urna sed est pharetra, sed sagittis metus sollicitudin. Donec euismod egestas orci, eu tincidunt dui accumsan non. Nulla tincidunt sem eget sapien vestibulum, sed fermentum est mollis. Aenean finibus elit tellus, in bibendum eros consequat vel. Pellentesque et justo elementum, gravida enim tempus, elementum enim. Fusce ac aliquam ante, in mattis tellus. Mauris eget egestas enim, et fringilla metus. Phasellus suscipit enim vel lacus rutrum convallis nec nec dolor. Vivamus aliquam tincidunt luctus. Nulla sit amet eros nec tellus mollis sodales. Donec ornare sit amet ligula dapibus mattis. Fusce ex risus, cursus in eros vitae, fringilla hendrerit massa. Suspendisse eget purus ut lacus auctor pulvinar. Ut vel consequat mi.",
+        "image": "/images/Audrey.jpg",
+        "alt": "Audrey wearing a beanie and holding her owlie",
+        "reverse": false
+    }
+]
