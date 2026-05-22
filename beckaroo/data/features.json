@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Daily Tails",
+        "text": "After over a decade of rescuing and owning animals together, we have our fair share of stories and wisdom. Check back often to see what we're getting into!",
+        "image": "/images/RiddlesAndBoo.jpg",
+        "alt": "A dog and a cat laying together",
+        "linkText": "Fun Stories",
+        "link": "daily-tails"
+    },
+    {
+        "id": 2,
+        "title": "The Zoo",
+        "text": "This Zoo has all kinds of animals. Go here to find out more about each animal and see some really cute pictures.",
+        "image": "/images/Ruxin.jpg",
+        "alt": "A bearded dragon",
+        "linkText": "I love animal pics",
+        "link": "daily-tails"
+    },
+    {
+        "id": 3,
+        "title": "The Keepers",
+        "text": "The keepers of the Zoo have other interests, too! Want to learn more about us?",
+        "image": "/images/RyderHome.jpg",
+        "alt": "A cat in a box",
+        "linkText": "Who are these crazy people?",
+        "link": "daily-tails"
+    }
+]

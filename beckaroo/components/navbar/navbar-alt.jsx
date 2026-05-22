@@ -56,26 +56,17 @@ export default function NavbarAlt() {
                     <div className='navbar-end hidden md:flex'>
                         <ul className='menu menu-horizontal px-1 lg:gap-2'>
                             <li>
-                                <Link
-                                    href='/'
-                                    className='hover:bg-secondary/70'
-                                >
+                                <Link href='/' className='hover:bg-base-300/40'>
                                     Daily Tails
                                 </Link>
                             </li>
                             <li>
-                                <Link
-                                    href='/'
-                                    className='hover:bg-secondary/70'
-                                >
+                                <Link href='/' className='hover:bg-base-300/40'>
                                     The Zoo
                                 </Link>
                             </li>
                             <li>
-                                <Link
-                                    href='/'
-                                    className='hover:bg-secondary/70'
-                                >
+                                <Link href='/' className='hover:bg-base-300/40'>
                                     The Keepers
                                 </Link>
                             </li>

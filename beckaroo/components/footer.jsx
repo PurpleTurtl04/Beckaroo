@@ -10,16 +10,16 @@ export default function Footer() {
                 <a>
                     <Image
                         src='/images/Instagram.svg'
-                        width='35'
-                        height='35'
+                        width={35}
+                        height={35}
                         alt='Instagram Logo'
                     />
                 </a>
                 <a href='' className='hover:text-secondary'>
                     <Image
                         src='/images/TikTok.svg'
-                        width='35'
-                        height='35'
+                        width={35}
+                        height={35}
                         alt='TikTok Logo'
                         className='fill-current'
                     />

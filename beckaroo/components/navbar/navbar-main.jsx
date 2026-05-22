@@ -27,7 +27,7 @@ export default function NavbarMain() {
                                 </svg>
                             </div>
                             <ul
-                                tabindex='-1'
+                                tabIndex='-1'
                                 className='menu menu-sm dropdown-content bg-base-300 rounded-box text-base-content z-1 mt-3 w-32 p-2 shadow'
                             >
                                 <li>
@@ -56,13 +56,19 @@ export default function NavbarMain() {
                     <div className='navbar-end hidden md:flex'>
                         <ul className='menu menu-horizontal px-1 lg:gap-2'>
                             <li>
-                                <Link href='/'>Daily Tails</Link>
+                                <Link href='/' className='hover:bg-base-300/30'>
+                                    Daily Tails
+                                </Link>
                             </li>
                             <li>
-                                <Link href='/'>The Zoo</Link>
+                                <Link href='/' className='hover:bg-base-300/30'>
+                                    The Zoo
+                                </Link>
                             </li>
                             <li>
-                                <Link href='/'>The Keepers</Link>
+                                <Link href='/' className='hover:bg-base-300/30'>
+                                    The Keepers
+                                </Link>
                             </li>
                             <li>
                                 <div className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'>
