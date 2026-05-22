@@ -12,14 +12,16 @@ export default function FeatureCard({
     return (
         <div className='card bg-base-100 col-span-3 mx-auto max-w-xl shadow-sm lg:col-span-1'>
             <figure>
-                <Image
-                    src={image}
-                    alt={alt}
-                    width={0}
-                    height={0}
-                    sizes='100vw'
-                    className='h-auto w-full'
-                />
+                {image && (
+                    <Image
+                        src={image}
+                        alt={alt}
+                        width={0}
+                        height={0}
+                        sizes='100vw'
+                        className='h-auto w-full'
+                    />
+                )}
             </figure>
             <div className='card-body'>
                 <h2 className='card-title font-dynapuff text-3xl'>{title}</h2>

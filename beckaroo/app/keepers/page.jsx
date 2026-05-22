@@ -1,5 +1,4 @@
-import Keeper from '@/components/keepers/keeper';
-
+import Keeper from '@/components/keeper';
 import keepers from '@/data/keepers.json';
 
 export default function Keepers() {
