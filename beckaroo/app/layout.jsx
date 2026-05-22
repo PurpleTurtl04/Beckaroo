@@ -2,6 +2,7 @@ import { Poppins, DynaPuff } from 'next/font/google';
 import './globals.css';
 
 import Navbar from '@/components/navbar/navbar';
+import Footer from '@/components/footer';
 
 const poppins = Poppins({
     variable: '--font-poppins',
@@ -25,9 +26,12 @@ export default function RootLayout({ children }) {
             lang='en'
             className={`${poppins.variable} ${dynapuff.variable} h-full antialiased`}
         >
-            <body className='font-poppins flex min-h-full flex-col'>
+            <body className='font-poppins bg-base-200 flex min-h-full flex-col'>
                 <Navbar />
-                <main className='container mx-auto grow py-6'>{children}</main>
+                <main className='container mx-auto grow px-4 py-6'>
+                    {children}
+                </main>
+                <Footer />
             </body>
         </html>
     );

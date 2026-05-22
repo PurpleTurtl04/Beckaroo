@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function NavbarMain() {
     return (
         <div className='bg-primary text-primary-content flex justify-center shadow-sm'>
-            <nav className='container'>
+            <nav className='3xl:px-2 container'>
                 <div className='navbar md:px-4 lg:px-8'>
                     <div className='navbar-start'>
                         <div className='dropdown'>
@@ -54,7 +54,7 @@ export default function NavbarMain() {
                         </Link>
                     </div>
                     <div className='navbar-end hidden md:flex'>
-                        <ul className='menu menu-horizontal px-1'>
+                        <ul className='menu menu-horizontal px-1 lg:gap-2'>
                             <li>
                                 <Link href='/'>Daily Tails</Link>
                             </li>

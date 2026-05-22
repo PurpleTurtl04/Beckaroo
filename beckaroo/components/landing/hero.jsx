@@ -3,17 +3,16 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <div className='hero flex min-h-screen flex-col items-start justify-center overflow-hidden pl-2'>
+        <div className='hero flex min-h-screen flex-col items-start justify-center overflow-hidden'>
             <Image
                 src={CooperHero}
                 alt='Corgi sitting outside'
                 fill
-                style={{ objectFit: 'cover' }}
                 priority
-                className='object-[30%] md:object-[10%]'
+                className='3xl:mx-auto max-w-480 object-cover object-[30%] md:object-[15%]'
             />
-            <div className='absolute inset-0 bg-black/15 md:bg-black/5' />
-            <div className='hero-content text-neutral-content items-start justify-start text-shadow-lg/20 md:ml-8 lg:ml-2'>
+            <div className='3xl:mx-auto absolute inset-0 max-w-480 bg-black/12 md:bg-black/5' />
+            <div className='hero-content text-neutral-content 3xl:ml-6 items-start justify-start text-shadow-lg/20 md:ml-2 lg:ml-6 xl:ml-2'>
                 <div>
                     <h1 className='font-dynapuff mb-4 text-4xl font-bold md:text-5xl'>
                         Welcome to the Zoo!
