@@ -1,5 +1,11 @@
 import Blogs from '@/components/daily-tails/blogs-grid';
 
+export const metadata = {
+    title: 'Daily Tails',
+    description:
+        'Check out some posts about a lot of fun stories and lessons learned from owning so many animals.',
+};
+
 export default function DailyTails() {
     return (
         <div className='container mx-auto'>

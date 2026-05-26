@@ -1,6 +1,11 @@
 import Keeper from '@/components/keeper';
 import keepers from '@/data/keepers.json';
 
+export const metadata = {
+    title: 'The Keepers',
+    description: 'Learn more about the keepers of our little home zoo.',
+};
+
 export default function Keepers() {
     return (
         <div className='container mx-auto'>
