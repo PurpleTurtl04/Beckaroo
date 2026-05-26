@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className='bg-primary text-primary-content mt-30 flex flex-col items-center justify-center'>
+        <footer className='bg-primary text-primary-content mt-15 flex flex-col items-center justify-center lg:mt-30'>
             <h2 className='font-dynapuff mt-6 pb-4 text-2xl'>
                 beckaroo & the zoo
             </h2>
