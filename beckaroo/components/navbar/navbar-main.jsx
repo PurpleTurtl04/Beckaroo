@@ -34,7 +34,7 @@ export default function NavbarMain() {
                                     <Link href='/daily-tails'>Daily Tails</Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>The Zoo</Link>
+                                    <Link href='/zoo'>The Zoo</Link>
                                 </li>
                                 <li>
                                     <Link href='/keepers'>The Keepers</Link>
@@ -64,7 +64,10 @@ export default function NavbarMain() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href='/' className='hover:bg-base-300/30'>
+                                <Link
+                                    href='/zoo'
+                                    className='hover:bg-base-300/30'
+                                >
                                     The Zoo
                                 </Link>
                             </li>

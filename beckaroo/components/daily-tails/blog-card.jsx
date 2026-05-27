@@ -13,7 +13,7 @@ export default function BlogCard({
     date,
 }) {
     return (
-        <div className='card bg-base-100 col-span-1 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl'>
+        <div className='card bg-base-100 col-span-1 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl'>
             <Link href={`/daily-tails/${id}`}>
                 <figure>
                     {blogImage && (
@@ -23,7 +23,7 @@ export default function BlogCard({
                             width={0}
                             height={0}
                             sizes='100vw'
-                            className='h-auto w-full'
+                            className='h-auto w-full rounded-t-2xl'
                         />
                     )}
                 </figure>

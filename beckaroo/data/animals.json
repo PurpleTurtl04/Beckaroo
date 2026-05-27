@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Fletcher",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Fletcher.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 2,
+        "name": "Ruxin",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Ruxin.jpg",
+        "alt": "A bearded dragon",
+        "angel": true,
+        "class": "row-span-1"
+    },
+    {
+        "id": 3,
+        "name": "Hopper",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Hopper.jpg",
+        "alt": "A cat laying in a cat tree",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 4,
+        "name": "Rufus",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/RiddlesAndBoo.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": true,
+        "class": "row-span-1"
+    },
+    {
+        "id": 5,
+        "name": "Ruxin",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Ruxin.jpg",
+        "alt": "A bearded dragon",
+        "angel": false,
+        "class": ""
+    },
+    {
+        "id": 6,
+        "name": "Hopper",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Hopper.jpg",
+        "alt": "A cat laying in a cat tree",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 7,
+        "name": "Rufus",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/RiddlesAndBoo.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": false,
+        "class": ""
+    },
+    {
+        "id": 8,
+        "name": "Aries",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Aries.jpg",
+        "alt": "A red and orange corn snake",
+        "angel": false,
+        "class": "col-span-2"
+    },
+    {
+        "id": 1,
+        "name": "Fletcher",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Fletcher.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 2,
+        "name": "Ruxin",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Ruxin.jpg",
+        "alt": "A bearded dragon",
+        "angel": true,
+        "class": "row-span-1"
+    },
+    {
+        "id": 3,
+        "name": "Hopper",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Hopper.jpg",
+        "alt": "A cat laying in a cat tree",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 4,
+        "name": "Rufus",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/RiddlesAndBoo.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": true,
+        "class": "row-span-1"
+    },
+    {
+        "id": 5,
+        "name": "Ruxin",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Ruxin.jpg",
+        "alt": "A bearded dragon",
+        "angel": false,
+        "class": ""
+    },
+    {
+        "id": 6,
+        "name": "Hopper",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Hopper.jpg",
+        "alt": "A cat laying in a cat tree",
+        "angel": false,
+        "class": "row-span-2"
+    },
+    {
+        "id": 7,
+        "name": "Rufus",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/RiddlesAndBoo.jpg",
+        "alt": "A dog and a cat laying together",
+        "angel": false,
+        "class": ""
+    },
+    {
+        "id": 8,
+        "name": "Aries",
+        "text": "This little girl is crazy. Always doing something she's not supposed to.",
+        "image": "/images/Aries.jpg",
+        "alt": "A red and orange corn snake",
+        "angel": false,
+        "class": "col-span-2"
+    }
+]
