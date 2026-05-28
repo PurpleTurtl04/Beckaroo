@@ -88,7 +88,7 @@ export default function Zoo() {
                         </div>
                         <div className='modal-action'>
                             <form method='dialog'>
-                                <button class='btn btn-sm btn-circle btn-ghost absolute top-2 right-2'>
+                                <button className='btn btn-sm btn-circle btn-ghost absolute top-2 right-2'>
                                     ✕
                                 </button>
                             </form>

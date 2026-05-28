@@ -28,7 +28,7 @@ export default function BlogCard({
             </figure>
             <Link
                 href={`/daily-tails/${id}`}
-                className='card-body hover:bg-base-300/50 justify-between transition-all duration-200'
+                className='card-body hover:bg-base-300/50 justify-between transition-all duration-200 hover:rounded-b-2xl'
             >
                 <h2 className='card-title'>{title}</h2>
                 <p>{summary}</p>

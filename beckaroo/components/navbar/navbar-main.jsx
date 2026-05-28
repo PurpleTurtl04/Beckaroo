@@ -31,16 +31,42 @@ export default function NavbarMain() {
                                 className='menu menu-sm dropdown-content bg-base-300 rounded-box text-base-content z-1 mt-3 w-32 p-2 shadow'
                             >
                                 <li>
-                                    <Link href='/daily-tails'>Daily Tails</Link>
+                                    <Link
+                                        href='/daily-tails'
+                                        onClick={() =>
+                                            document.activeElement.blur()
+                                        }
+                                    >
+                                        Daily Tails
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href='/zoo'>The Zoo</Link>
+                                    <Link
+                                        href='/zoo'
+                                        onClick={() =>
+                                            document.activeElement.blur()
+                                        }
+                                    >
+                                        The Zoo
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href='/keepers'>The Keepers</Link>
+                                    <Link
+                                        href='/keepers'
+                                        onClick={() =>
+                                            document.activeElement.blur()
+                                        }
+                                    >
+                                        The Keepers
+                                    </Link>
                                 </li>
                                 <li>
-                                    <div className='btn btn-xs btn-soft btn-primary md:pl-0'>
+                                    <div
+                                        className='btn btn-xs btn-soft btn-primary md:pl-0'
+                                        onClick={() =>
+                                            document.activeElement.blur()
+                                        }
+                                    >
                                         Sign Up
                                     </div>
                                 </li>

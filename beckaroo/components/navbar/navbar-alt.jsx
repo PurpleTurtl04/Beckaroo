@@ -40,7 +40,12 @@ export default function NavbarAlt() {
                                     <Link href='/keepers'>The Keepers</Link>
                                 </li>
                                 <li>
-                                    <div className='btn btn-xs btn-soft btn-primary pl-0'>
+                                    <div
+                                        className='btn btn-xs btn-soft btn-primary pl-0'
+                                        onClick={() =>
+                                            document.activeElement.blur()
+                                        }
+                                    >
                                         Sign Up
                                     </div>
                                 </li>
