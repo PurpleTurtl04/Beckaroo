@@ -61,7 +61,7 @@ export default async function BlogPost({ params }) {
                         width={0}
                         height={0}
                         sizes='100vw'
-                        className='w-full max-w-4xl rounded-2xl'
+                        className='w-full max-w-4xl min-w-md rounded-2xl'
                     />
                 )}
             </div>
