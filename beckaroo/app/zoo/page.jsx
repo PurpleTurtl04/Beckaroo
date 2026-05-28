@@ -77,7 +77,7 @@ export default function Zoo() {
                                 width={0}
                                 height={0}
                                 sizes='100vw'
-                                className='border-secondary-700 h-100 w-full rounded-2xl object-cover shadow-md'
+                                className='h-100 w-full rounded-2xl object-cover shadow-md'
                             />
                         )}
                         <div className='py-4'>
