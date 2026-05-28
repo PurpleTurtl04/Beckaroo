@@ -40,7 +40,7 @@ export default function NavbarMain() {
                                     <Link href='/keepers'>The Keepers</Link>
                                 </li>
                                 <li>
-                                    <div className='btn btn-xs btn-soft btn-primary pl-0'>
+                                    <div className='btn btn-xs btn-soft btn-primary md:pl-0'>
                                         Sign Up
                                     </div>
                                 </li>
@@ -48,7 +48,7 @@ export default function NavbarMain() {
                         </div>
                         <Link
                             href='/'
-                            className='font-dynapuff btn btn-link text-primary-content text-xl no-underline'
+                            className='font-dynapuff btn btn-link text-primary-content text-xl no-underline md:pl-0'
                         >
                             beckaroo & the zoo
                         </Link>

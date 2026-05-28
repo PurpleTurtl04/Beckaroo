@@ -9,6 +9,7 @@ export default function Hero() {
                 alt='Corgi sitting outside'
                 fill
                 priority
+                sizes='100vw'
                 className='3xl:mx-auto max-w-480 object-cover object-[30%] md:object-[15%]'
             />
             <div className='3xl:mx-auto absolute inset-0 max-w-480 bg-black/12 md:bg-black/5' />

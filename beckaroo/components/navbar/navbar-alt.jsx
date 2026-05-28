@@ -48,7 +48,7 @@ export default function NavbarAlt() {
                         </div>
                         <Link
                             href='/'
-                            className='font-dynapuff btn btn-link text-primary-content text-xl no-underline'
+                            className='font-dynapuff btn btn-link text-primary-content text-xl no-underline md:pl-0'
                         >
                             beckaroo & the zoo
                         </Link>
