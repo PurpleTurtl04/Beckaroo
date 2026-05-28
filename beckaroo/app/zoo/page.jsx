@@ -66,7 +66,7 @@ export default function Zoo() {
                 ))}
             </section>
 
-            {/* daisyUI Modal using <dialog> */}
+            {/* Modal */}
             <dialog ref={modalRef} className='modal'>
                 <div className='modal-box'>
                     <div className='pt-4'>
@@ -77,7 +77,7 @@ export default function Zoo() {
                                 width={0}
                                 height={0}
                                 sizes='100vw'
-                                className='h-100 w-full rounded-2xl object-cover'
+                                className='border-secondary-700 h-100 w-full rounded-2xl object-cover shadow-md'
                             />
                         )}
                         <div className='py-4'>
