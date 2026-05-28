@@ -3,6 +3,7 @@ import './globals.css';
 
 import Navbar from '@/components/navbar/navbar';
 import Footer from '@/components/footer';
+import SignUpModal from '@/components/sign-up-modal';
 
 const poppins = Poppins({
     variable: '--font-poppins',
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
                 <main className='container mx-auto grow px-4 py-6'>
                     {children}
                 </main>
+                <SignUpModal />
                 <Footer />
             </body>
         </html>

@@ -1,4 +1,4 @@
-import FeatureCard from './feature-card';
+import FeatureCard from '@/components/landing/feature-card';
 
 import features from '@/data/features.json';
 

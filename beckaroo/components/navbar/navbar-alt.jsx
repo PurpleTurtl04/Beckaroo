@@ -1,6 +1,10 @@
 import Link from 'next/link';
 
 export default function NavbarAlt() {
+    function closeNavMenu() {
+        document.activeElement.blur();
+    }
+
     return (
         <div className='absolute top-0 right-0 left-0 z-10 bg-transparent pt-4 text-white md:px-3 lg:px-8'>
             <nav className='3xl:px-2 container mx-auto'>
@@ -31,23 +35,35 @@ export default function NavbarAlt() {
                                 className='menu menu-sm dropdown-content bg-base-300 rounded-box text-base-content z-1 mt-3 w-32 p-2 shadow'
                             >
                                 <li>
-                                    <Link href='/daily-tails'>Daily Tails</Link>
+                                    <Link
+                                        href='/daily-tails'
+                                        onClick={closeNavMenu}
+                                    >
+                                        Daily Tails
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href='/zoo'>The Zoo</Link>
+                                    <Link href='/zoo' onClick={closeNavMenu}>
+                                        The Zoo
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href='/keepers'>The Keepers</Link>
+                                    <Link
+                                        href='/keepers'
+                                        onClick={closeNavMenu}
+                                    >
+                                        The Keepers
+                                    </Link>
                                 </li>
                                 <li>
-                                    <div
+                                    <Link
+                                        href='?modal=open'
+                                        scroll={false}
                                         className='btn btn-xs btn-soft btn-primary pl-0'
-                                        onClick={() =>
-                                            document.activeElement.blur()
-                                        }
+                                        onClick={closeNavMenu}
                                     >
                                         Sign Up
-                                    </div>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -85,9 +101,13 @@ export default function NavbarAlt() {
                                 </Link>
                             </li>
                             <li>
-                                <div className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'>
+                                <Link
+                                    href='?modal=open'
+                                    scroll={false}
+                                    className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'
+                                >
                                     Sign Up
-                                </div>
+                                </Link>
                             </li>
                         </ul>
                     </div>

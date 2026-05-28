@@ -1,4 +1,4 @@
-import BlogCard from './blog-card';
+import BlogCard from '@/components/daily-tails/blog-card';
 
 import blogs from '@/data/blogs.json';
 

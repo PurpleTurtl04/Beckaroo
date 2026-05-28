@@ -1,6 +1,10 @@
 import Link from 'next/link';
 
 export default function NavbarMain() {
+    function closeNavMenu() {
+        document.activeElement.blur();
+    }
+
     return (
         <div className='bg-primary text-primary-content flex justify-center shadow-sm'>
             <nav className='3xl:px-2 container'>
@@ -33,42 +37,33 @@ export default function NavbarMain() {
                                 <li>
                                     <Link
                                         href='/daily-tails'
-                                        onClick={() =>
-                                            document.activeElement.blur()
-                                        }
+                                        onClick={closeNavMenu}
                                     >
                                         Daily Tails
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        href='/zoo'
-                                        onClick={() =>
-                                            document.activeElement.blur()
-                                        }
-                                    >
+                                    <Link href='/zoo' onClick={closeNavMenu}>
                                         The Zoo
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
                                         href='/keepers'
-                                        onClick={() =>
-                                            document.activeElement.blur()
-                                        }
+                                        onClick={closeNavMenu}
                                     >
                                         The Keepers
                                     </Link>
                                 </li>
                                 <li>
-                                    <div
+                                    <Link
+                                        href='?modal=open'
+                                        scroll={false}
                                         className='btn btn-xs btn-soft btn-primary md:pl-0'
-                                        onClick={() =>
-                                            document.activeElement.blur()
-                                        }
+                                        onClick={closeNavMenu}
                                     >
                                         Sign Up
-                                    </div>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -106,9 +101,13 @@ export default function NavbarMain() {
                                 </Link>
                             </li>
                             <li>
-                                <div className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'>
+                                <Link
+                                    href='?modal=open'
+                                    scroll={false}
+                                    className='btn btn-sm btn-ghost bg-base-300/30 hover:bg-base-300 hover:text-primary'
+                                >
                                     Sign Up
-                                </div>
+                                </Link>
                             </li>
                         </ul>
                     </div>
