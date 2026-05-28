@@ -27,12 +27,12 @@ export default function Zoo() {
 
     return (
         <div className='container mx-auto'>
-            <h1 className='font-dynapuff mt-16 text-5xl'>The Zoo</h1>
+            <h1 className='font-dynapuff mt-8 text-5xl lg:mt-16'>The Zoo</h1>
             <p className='mt-6'>
                 Here are all the animals in the Zoo. Click on their pictures to
                 find out more about them!
             </p>
-            <section className='3xl:max-w-10/12 mx-auto mt-20 grid grid-cols-2 gap-6'>
+            <section className='3xl:max-w-10/12 mx-auto mt-12 grid grid-cols-2 gap-6 lg:mt-15'>
                 {chunks.map((chunk, i) => (
                     <div className='col-span-2 lg:col-span-1' key={i}>
                         <div className='grid grid-cols-2 grid-rows-3 gap-4'>
