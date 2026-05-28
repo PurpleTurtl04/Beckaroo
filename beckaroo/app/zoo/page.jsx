@@ -82,7 +82,7 @@ export default function Zoo() {
                         )}
                         <div className='py-4'>
                             <h3 className='font-dynapuff mb-1 text-3xl'>
-                                {modalData?.name}
+                                {modalData?.name} {modalData?.angel && '<3'}
                             </h3>
                             <p>{modalData?.text}</p>
                         </div>
