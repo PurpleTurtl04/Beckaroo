@@ -2,11 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function BlogCard({
+    slug,
     id,
+    title,
+    description,
     blogImage,
     blogImageAlt,
-    title,
-    summary,
     avatar,
     avatarAlt,
     author,
@@ -27,11 +28,11 @@ export default function BlogCard({
                 )}
             </figure>
             <Link
-                href={`/daily-tails/${id}`}
+                href={`/daily-tails/${slug}`}
                 className='card-body hover:bg-base-300/50 justify-between transition-all duration-200 hover:rounded-b-2xl'
             >
                 <h2 className='card-title'>{title}</h2>
-                <p>{summary}</p>
+                <p>{description}</p>
                 <div className='flex items-end justify-start gap-2'>
                     <div className='avatar mt-9'>
                         <div className='w-8 rounded-full'>
