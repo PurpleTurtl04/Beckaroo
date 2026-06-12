@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
     const { blogSlug } = await params;
     const post = getPostData(blogSlug);
 
-    // Fallback metadata if the blog post doesn't exist
+    //Fallback metadata if the blog post doesn't exist
     if (!post) {
         return {
             title: 'Post Not Found',
@@ -42,6 +42,7 @@ export async function generateMetadata({ params }) {
         title: `${data.title} | Beckaroo & The Zoo`,
         description: data.description,
         authors: [{ name: data.author }],
+        // Controls how blog posts look when links to them are shared across social media and messaging platforms.
         openGraph: {
             title: data.title,
             description: data.description,
