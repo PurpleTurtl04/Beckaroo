@@ -9,7 +9,7 @@ export default function NavbarAlt() {
         <div className='absolute top-0 right-0 left-0 z-10 bg-transparent pt-4 text-white md:px-3 lg:px-8'>
             <nav className='3xl:px-2 container mx-auto'>
                 <div className='navbar'>
-                    <div className='navbar-start'>
+                    <div className='navbar-start w-9/20 lg:w-1/2'>
                         <div className='dropdown'>
                             <div
                                 tabIndex='0'
@@ -75,7 +75,7 @@ export default function NavbarAlt() {
                         </Link>
                     </div>
                     <div className='navbar-end hidden md:flex'>
-                        <ul className='menu menu-horizontal px-1 lg:gap-2'>
+                        <ul className='menu menu-horizontal flex-nowrap px-1 lg:gap-2'>
                             <li>
                                 <Link
                                     href='/daily-tails'

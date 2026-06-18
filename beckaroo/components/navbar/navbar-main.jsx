@@ -9,7 +9,7 @@ export default function NavbarMain() {
         <div className='bg-primary text-primary-content flex justify-center shadow-sm'>
             <nav className='3xl:px-2 container'>
                 <div className='navbar'>
-                    <div className='navbar-start'>
+                    <div className='navbar-start w-9/20 lg:w-1/2'>
                         <div className='dropdown'>
                             <div
                                 tabIndex='0'
@@ -75,7 +75,7 @@ export default function NavbarMain() {
                         </Link>
                     </div>
                     <div className='navbar-end hidden md:flex'>
-                        <ul className='menu menu-horizontal px-1 lg:gap-2'>
+                        <ul className='menu menu-horizontal flex-nowrap px-1 lg:gap-2'>
                             <li>
                                 <Link
                                     href='/daily-tails'
