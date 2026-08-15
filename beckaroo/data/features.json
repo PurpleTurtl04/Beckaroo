@@ -12,7 +12,7 @@
         "id": 2,
         "title": "The Zoo",
         "text": "This Zoo has all kinds of animals. Go here to find out more about each animal and see some really cute pictures.",
-        "image": "/images/Ruxin.jpg",
+        "image": "/images/Ryder-Hopper.jpg",
         "alt": "A bearded dragon",
         "linkText": "I love animal pics",
         "link": "zoo"
@@ -21,7 +21,7 @@
         "id": 3,
         "title": "The Keepers",
         "text": "The keepers of the Zoo have other interests, too! Want to learn more about us?",
-        "image": "/images/RyderHome.jpg",
+        "image": "/images/Fletcher-Silly.jpg",
         "alt": "A cat in a box",
         "linkText": "Who are these crazy people?",
         "link": "keepers"
